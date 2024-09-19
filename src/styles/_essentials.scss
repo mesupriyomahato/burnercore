@@ -1,0 +1,13 @@
+@use './typography';
+@import './typography';
+
+@mixin smooth {
+    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+@mixin protectmedia {
+    user-select: none;
+    pointer-events: none;
+}
+
+$corner: 0rem;
